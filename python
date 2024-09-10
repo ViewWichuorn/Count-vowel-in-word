@@ -1,0 +1,24 @@
+counta = 0
+counte = 0
+counti = 0
+counto = 0
+countu = 0
+i = str(input("Enter your word: "))
+for x in i:
+  if x == "a":
+    counta += 1  
+  elif x == "e":
+    counte += 1    
+  elif x == "i":
+    counti += 1    
+  elif x == "o":
+    counto += 1  
+  elif x == "u":
+    countu += 1
+print("a = %d"%counta)
+print("e = %d"%counte)
+print("i = %d"%counti)
+print("o = %d"%counto)
+print("u = %d"%countu)
+count = counta + counte + counti + counto + countu
+print("total vowel is %d"%count)
